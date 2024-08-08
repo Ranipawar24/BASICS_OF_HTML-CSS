@@ -24,8 +24,17 @@
      <img src="profilepic1.jpg" usemap="#image-map">
 
     <map name="image-map">
-    <area target="" alt="" title="" href="" coords="290,44,354,104" shape="rect">
-    <area target="" alt="" title="" href="" coords="32,68,107,103" shape="rect">
+    <area onclick="One()" target="" alt="" title="" href="" coords="290,44,354,104" shape="rect">
+    <area onclick="Two()" target="" alt="" title="" href="" coords="32,68,107,103" shape="rect">
+
+    <script>
+        function One() {
+            alert("You clicked on one");
+        }
+        function Two() {
+            alert("You clicked on two");
+        }
+    </script>
 
   </map>
 </body>
